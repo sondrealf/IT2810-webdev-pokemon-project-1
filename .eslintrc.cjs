@@ -19,6 +19,7 @@ module.exports = {
   },
   plugins: ["react-refresh"],
   rules: {
+    "@typescript-eslint/prefer-nullish-coalescing": "warn",
     "react-refresh/only-export-components": [
       "warn",
       { allowConstantExport: true },
