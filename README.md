@@ -1,5 +1,7 @@
 # IT2810 Prosjekt 1
 
+Here is a link to the project: https://gitlab.stud.idi.ntnu.no/it2810-h23/Team-15/prosjekt-1/
+
 This is group 15s submission for project 1 in the course IT2810.
 
 The application is a tool for gathering information about pokemons. You can find different pokemon by navigating through pages, filter by color or a search by specific name or pokedex-number. The information shown about a pokemon includes statistics such as height, weight, abilities, types and other base statistics, as well as an image of the pokemon.
