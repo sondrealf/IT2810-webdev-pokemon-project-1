@@ -1,4 +1,7 @@
 module.exports = {
+  settings: {
+    react: { version: "detect" },
+  },
   root: true,
   env: { browser: true, es2020: true },
   extends: [
@@ -9,7 +12,7 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
   ],
-  ignorePatterns: ["dist", ".eslintrc.cjs"],
+  ignorePatterns: ["dist", ".eslintrc.cjs", "**/__tests__/*"],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: "latest",

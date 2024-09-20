@@ -1,0 +1,83 @@
+.pokemon-page__type {
+  display: inline-block;
+  width: 110px;
+  text-align: center;
+  margin: 5px;
+  padding: 2px 0px;
+  border-radius: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: white;
+}
+
+.pokemon-page__type-poison {
+  background-color: #a59;
+}
+
+.pokemon-page__type-grass {
+  background-color: #7c5;
+}
+
+.pokemon-page__type-fire {
+  background-color: #f42;
+}
+
+.pokemon-page__type-flying {
+  background-color: #89f;
+}
+
+.pokemon-page__type-bug {
+  background-color: #ab2;
+}
+
+.pokemon-page__type-dragon {
+  background-color: #76e;
+}
+
+.pokemon-page__type-steel {
+  background-color: #aab;
+}
+
+.pokemon-page__type-ice {
+  background-color: #6cf;
+}
+
+.pokemon-page__type-electric {
+  background-color: #fc3;
+}
+
+.pokemon-page__type-fighting {
+  background-color: #b54;
+}
+
+.pokemon-page__type-ground {
+  background-color: #db5;
+}
+
+.pokemon-page__type-rock {
+  background-color: #ba6;
+}
+
+.pokemon-page__type-psychic {
+  background-color: #f59;
+}
+
+.pokemon-page__type-ghost {
+  background-color: #66b;
+}
+
+.pokemon-page__type-dark {
+  background-color: #754;
+}
+
+.pokemon-page__type-fairy {
+  background-color: #e9e;
+}
+
+.pokemon-page__type-normal {
+  background-color: #aa9;
+}
+
+.pokemon-page__type-water {
+  background-color: #39f;
+}

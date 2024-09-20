@@ -1,0 +1,29 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Navbar > matches snapshot 1`] = `
+<div>
+  <nav
+    class="navbar__red-bar"
+  >
+    <img
+      alt="Pokémon ball"
+      class="navbar__pokemon-ball"
+      src="/project1/src/assets/pokemon-ball.svg"
+    />
+    <div
+      class="navbar__button-container"
+    >
+      <button
+        class="navbar__buttons"
+      >
+        Favourites
+      </button>
+      <button
+        class="navbar__buttons"
+      >
+        Home
+      </button>
+    </div>
+  </nav>
+</div>
+`;

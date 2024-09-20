@@ -1,0 +1,40 @@
+.pokemon-table {
+  color: #696969;
+  width: 50%;
+  @media (max-width: 865px) {
+    width: 100%;
+  }
+  @media (max-width: 1000px) {
+    margin: 0;
+    margin-top: 1rem;
+  }
+}
+
+.pokemon-table__stats {
+  width: 100%;
+}
+
+.pokemon-table__stats-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  width: 100%;
+  border-top: 1.5px solid #d6d5d5;
+}
+
+.pokemon-table__stats-header {
+  text-transform: capitalize;
+  margin-left: 2rem;
+  font-weight: 400;
+}
+
+.pokemon-table__stats-number {
+  margin-right: 2rem;
+  font-weight: bold;
+  color: #d23e2c;
+}
+
+.mini-header {
+  margin-top: 0;
+}

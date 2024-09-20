@@ -1,0 +1,29 @@
+.infoCard {
+  background-color: #db4032;
+  border-radius: 10px;
+  color: white;
+  padding: 1em;
+  padding-bottom: 1px;
+  margin-bottom: 1em;
+}
+
+.infoCard__iconAndLabel {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  height: 2em;
+}
+
+.infoIcon {
+  height: 1.5em;
+}
+
+.text {
+  font-size: 1.5em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0.2em;
+}

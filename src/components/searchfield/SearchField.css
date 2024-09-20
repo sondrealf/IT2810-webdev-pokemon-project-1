@@ -1,0 +1,40 @@
+.searchfield {
+  background-color: #fff;
+  color: #000000;
+  border: 0;
+  border-radius: 5px 0px 0px 5px;
+  padding: 0 1.5em;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  height: 100%;
+}
+
+.searchfield__container {
+  margin-top: 1.5em;
+  display: flex;
+  width: 100%;
+  height: 3em;
+}
+
+.searchfield__button {
+  padding: 1em;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #db4032;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 200ms;
+  width: 22px;
+  height: 22px;
+}
+
+.searchfield__button:hover {
+  background-color: hsl(5, 70%, 60%);
+}
+
+.searchfield__image {
+  height: 50%;
+}

@@ -1,0 +1,28 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`FilterSelect > should match snapshot 1`] = `
+<div>
+  <div
+    class="app__filtering-container"
+  >
+    <span
+      class="app__filtering-text"
+    />
+    <select
+      class="filter-select"
+      placeholder="Select a color"
+    >
+      <option
+        value="test"
+      >
+        Test
+      </option>
+      <option
+        value="test2"
+      >
+        Test2
+      </option>
+    </select>
+  </div>
+</div>
+`;

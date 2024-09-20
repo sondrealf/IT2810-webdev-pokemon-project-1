@@ -1,0 +1,65 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Card component > matches snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="card__container"
+  >
+    <div
+      class="card__header"
+    >
+      <p
+        class="card__header-name"
+      />
+      <div
+        class="TypeCircle__container"
+      >
+        <svg
+          fill="none"
+          height="15"
+          viewBox="0 0 16 15"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="TypeCircle__typeColor-undefined"
+            d="M7.50488 15C5.51576 15 3.6081 14.2098 2.20158 12.8033C0.795059 11.3968 0.00488281 9.48912 0.00488281 7.5C0.00488281 5.51088 0.795059 3.60322 2.20158 2.1967C3.6081 0.790177 5.51576 3.00349e-07 7.50488 0L7.50488 7.5V15Z"
+          />
+          <path
+            class="TypeCircle__typeColor-undefined"
+            d="M7.50488 0C9.49401 0 11.4017 0.790176 12.8082 2.1967C14.2147 3.60322 15.0049 5.51088 15.0049 7.5C15.0049 9.48912 14.2147 11.3968 12.8082 12.8033C11.4017 14.2098 9.49401 15 7.50488 15L7.50488 7.5L7.50488 0Z"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      class="card__header-separator-line"
+    />
+    <div
+      class="card__image-container"
+    >
+      <div
+        class="card__image"
+      >
+        Loading...
+      </div>
+    </div>
+    <div
+      class="FavouriteButton__container"
+    >
+      <svg
+        height="25"
+        role="svg"
+        viewBox="0 0 22 23"
+        width="25"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class=" FavouriteButton__starpath"
+          d="M8.77229 2.22466C9.47249 -0.174957 12.8719 -0.174952 13.5721 2.22467L14.2763 4.63798C14.5875 5.7045 15.5652 6.43769 16.6762 6.43769H19.481C21.8374 6.43769 22.8853 9.39923 21.0534 10.8813L18.3381 13.0781C17.5545 13.712 17.2282 14.7544 17.5106 15.7219L18.4363 18.8947C19.1225 21.2461 16.3683 23.0792 14.464 21.5385L12.7446 20.1475C11.8276 19.4056 10.5168 19.4056 9.59981 20.1475L7.8804 21.5385C5.97608 23.0792 3.22194 21.2461 3.90807 18.8947L4.83386 15.7219C5.11618 14.7544 4.7899 13.712 4.00635 13.0781L1.291 10.8813C-0.540912 9.39924 0.507053 6.43769 2.8634 6.43769H5.66818C6.77918 6.43769 7.7569 5.7045 8.0681 4.63798L8.77229 2.22466Z"
+        />
+      </svg>
+    </div>
+  </button>
+</DocumentFragment>
+`;

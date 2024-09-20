@@ -1,0 +1,32 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Pagination > matches snapshot 1`] = `
+<div>
+  <div
+    class="pagination"
+  >
+    <button
+      class="pagination__button pagination__left-button"
+      disabled=""
+    >
+      <img
+        alt="Previous"
+        src="/project1/src/assets/button-left.svg"
+      />
+    </button>
+    <span
+      class="pagination__index"
+    >
+      1
+    </span>
+    <button
+      class="pagination__button pagination__right-button"
+    >
+      <img
+        alt="Next"
+        src="/project1/src/assets/button-right.svg"
+      />
+    </button>
+  </div>
+</div>
+`;

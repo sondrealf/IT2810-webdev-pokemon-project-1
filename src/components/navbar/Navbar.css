@@ -1,0 +1,53 @@
+.navbar__red-bar {
+  background-color: #db4032;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__pokemon-ball {
+  margin-left: 30px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.navbar__button-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar__buttons {
+  height: 85%;
+  margin-top: 15px;
+  border-radius: 15px 15px 0 0;
+  color: white;
+  width: 140px;
+  padding: 0;
+  background-color: #db4032;
+  border: none;
+  font-size: 20px;
+  font-weight: 400;
+
+  &:hover {
+    background-color: #c22d1f;
+    cursor: pointer;
+  }
+
+  &:active {
+    background-color: #a21f16;
+  }
+
+  &:disabled {
+    background-color: #f2f2f2;
+    cursor: default;
+    color: #565656;
+  }
+
+  &:focus-visible {
+    outline: 4px dashed blue;
+  }
+}

@@ -1,0 +1,48 @@
+stages:
+  - prettier
+  - test
+  - build
+  - deploy
+
+prettier:
+  stage: prettier
+  image: node:19
+  script:
+    - echo "Running Prettier"
+    - npm ci
+    - npm run prettiercheck
+  only:
+    - merge_requests
+
+test:
+  stage: test
+  image: node:19
+  script:
+    - echo "Running tests"
+    - npm ci
+    - npm run test
+  only:
+    - merge_requests
+
+build:
+  stage: build
+  image: node:19
+  script:
+    - echo "Building the project"
+    - npm ci
+    - npm run build
+  only:
+    - merge_requests
+
+deploy:
+  stage: deploy
+  image: node:19
+  script:
+    - echo "Deploying to Vercel"
+    - npx vercel --token $VERCEL_TOKEN --yes=n --prod
+  environment:
+    name: prod
+  only:
+    - master
+  variables:
+    VERCEL_TOKEN: $VERCEL_TOKEN

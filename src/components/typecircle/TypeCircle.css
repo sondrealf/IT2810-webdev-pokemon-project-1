@@ -1,0 +1,62 @@
+.TypeCircle__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+/*Brukte fargene herfra https://www.epidemicjohto.com/t882-type-colors-hex-colors*/
+.TypeCircle__typeColor-fire {
+  fill: #ee8130;
+}
+.TypeCircle__typeColor-water {
+  fill: #6390f0;
+}
+.TypeCircle__typeColor-grass {
+  fill: #7ac74c;
+}
+.TypeCircle__typeColor-ice {
+  fill: #96d9d6;
+}
+.TypeCircle__typeColor-poison {
+  fill: #a33ea1;
+}
+.TypeCircle__typeColor-electric {
+  fill: #f7d02c;
+}
+.TypeCircle__typeColor-ground {
+  fill: #e2bf65;
+}
+.TypeCircle__typeColor-fighting {
+  fill: #c22e28;
+}
+.TypeCircle__typeColor-psychic {
+  fill: #f95587;
+}
+.TypeCircle__typeColor-flying {
+  fill: #a98ff3;
+}
+.TypeCircle__typeColor-bug {
+  fill: #a6b91a;
+}
+.TypeCircle__typeColor-rock {
+  fill: #b6a136;
+}
+.TypeCircle__typeColor-ghost {
+  fill: #735797;
+}
+.TypeCircle__typeColor-dragon {
+  fill: #6f35fc;
+}
+.TypeCircle__typeColor-dark {
+  fill: #705746;
+}
+.TypeCircle__typeColor-steel {
+  fill: #b7b7ce;
+}
+.TypeCircle__typeColor-fairy {
+  fill: #d685ad;
+}
+.TypeCircle__typeColor-normal {
+  fill: #a8a77a;
+}

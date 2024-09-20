@@ -1,0 +1,21 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SearchField > matches snapshot 1`] = `
+<div>
+  <form
+    class="searchfield__container"
+  >
+    <input
+      class="searchfield"
+      placeholder="Pokemon name"
+      type="search"
+      value=""
+    />
+    <input
+      class="searchfield__button"
+      src="/project1/src/assets/search.png"
+      type="image"
+    />
+  </form>
+</div>
+`;
